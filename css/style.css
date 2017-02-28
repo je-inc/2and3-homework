@@ -206,9 +206,8 @@ footer p{
 	background-color: rgb(244, 244, 244);
 }
 .reg-h1{
-	margin: 50px auto 30px;
-    background-color: #f8f8f8;
-    margin-top: 80px;
+	margin: 70px auto 30px;
+    background-color: #ddd;
     padding: 50px 0 50px 50px;
     text-align: center;
     font-size: 24px;
@@ -330,4 +329,37 @@ footer p{
 }
 
 																	/* Serial */
-
+.banner{
+	position: fixed;
+	top: 130px;
+	right: 35px;
+	z-index: 1;
+}
+.banner img{
+	width: 250px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.9);
+}
+.plot_summary{
+	overflow: hidden;
+	margin-top: 80px; 
+}
+.left{
+	width: 28%;
+    margin: 0 0 0 8%;
+    float: left;
+   }
+.left img{
+	max-width: 300px;
+}
+.plot_text{
+	float: left;
+    width: 37%;
+    margin: 0 0% 0 2%;
+}
+.plot_text h3{
+	color: #333;
+	margin-top: 10px;
+}
+.plot_text p{
+	color: #777;
+}
